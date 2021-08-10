@@ -1,0 +1,12 @@
+{
+  "/web":{
+    "target": "https://web.ts24.com.vn",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/web_login":"/en_US/web",
+	  "^/web_api":"/web"
+    }
+  }
+}
